@@ -1,38 +1,45 @@
 .App {
   text-align: center;
+  margin-top: 5%;
+  margin-left:15%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9 {
+  float: left;
+  width: 200px; height:200px;
+  background-color:rgb(255, 255, 255);
+  border: 3px solid black;  
+  font-size: 130px;
+  text-align: center;
+  font-weight: 500 ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ #div1,#div4,#div7{
+   clear:left;
+ }
+ #div1,#div2,#div3{
+   border-top: none;
+ }
+ #div1,#div4,#div7{
+  border-left: none;
 }
-
-.App-link {
-  color: #61dafb;
+#div7,#div8,#div9{
+  border-bottom: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#div3,#div6,#div9{
+  border-right: none;
+}
+#bottan{
+  
+  height: 50px;
+  width: 50px;
+  background-color: rgb(236, 33, 6);
+  border-radius: 5px;
+  
+}
+#player {
+  float: right;
+  width: 400px; height:600px;
+  background-color:rgb(255, 255, 255);
+  margin-right: 100px;
 }
